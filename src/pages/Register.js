@@ -7,7 +7,7 @@ import { useForm } from "../utils/hooks"
 
 const Register = (props) => {
     const navigate = useNavigate()
-    const [errors, setErrors] = React.useState({})
+    const [errors] = React.useState({})
     const context = useContext(AuthContext)
 
 

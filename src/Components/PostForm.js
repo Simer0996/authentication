@@ -9,7 +9,7 @@ const PostForm = () => {
         body: ""
     })
 
-    const [createBlog, { error }] = useMutation(CREATE_BLOG_MUTATION, {
+    const [createBlog] = useMutation(CREATE_BLOG_MUTATION, {
         variables: values,
         update(proxy, result) {
             console.log(result.data.createBlog)

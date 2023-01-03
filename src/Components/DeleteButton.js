@@ -1,8 +1,7 @@
 import React from 'react'
 import { gql, useMutation } from '@apollo/client'
 import { Button, Icon, Confirm } from 'semantic-ui-react'
-import { GET_BLOG_POSTS } from '../utils/graphql'
-import { filter } from 'lodash'
+
 
 
 const DeleteButton = ({ blogId }) => {

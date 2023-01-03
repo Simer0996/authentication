@@ -7,7 +7,7 @@ import { AuthContext } from '../context/auth'
 
 const Login = () => {
     const navigate = useNavigate()
-    const [errors, setErrors] = React.useState({})
+    const [errors] = React.useState({})
     const context = useContext(AuthContext)
 
 
